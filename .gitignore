@@ -5,3 +5,5 @@
 __pycache__
 .venv/
 env_gen/
+staticfiles/
+contrib/
