@@ -1,9 +1,9 @@
-#EVENTEX FÊNIX
+# EVENTEX FÊNIX
  
 Sistema de eventos desenvolvido em conjunto com a comunidade WTTD via discord com afins
 de aprofundar conhecimentos com python e seu framework DJANGO.
 
-##Como desenvolver?
+## Como desenvolver?
 1. Clone o repositório
 2. Crie um virtualenv com python 3.5 >
 3. Ative o virtualenv
@@ -11,7 +11,7 @@ de aprofundar conhecimentos com python e seu framework DJANGO.
 5. Configure a instância com o .env
 6. Execute os testes
 
---- console
+``` console
 git clone github.com/zeny-brus/wttd.git
 cd wttd
 python -m venv .venv
@@ -20,5 +20,3 @@ pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py test
 ---
-
-
