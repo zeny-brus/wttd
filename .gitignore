@@ -7,3 +7,4 @@ __pycache__
 env_gen/
 staticfiles/
 contrib/
+.ipynb_checkpoints/

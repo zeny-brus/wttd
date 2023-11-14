@@ -16,7 +16,7 @@ git clone github.com/zeny-brus/wttd.git
 cd wttd
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 python contrib/env_gen.py
 python manage.py test
 ---
